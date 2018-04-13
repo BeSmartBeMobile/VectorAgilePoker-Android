@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:id="@+id/rlCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp">
+
+        <ImageView
+            android:id="@+id/ivCardBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingEnd="23dp"
+            android:paddingLeft="23dp"
+            android:paddingRight="23dp"
+            android:paddingStart="23dp"
+            android:src="@drawable/back"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/ivCardImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvCardValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColor="#000"
+            android:textSize="180dp"
+            android:typeface="normal"
+            android:visibility="invisible"
+            tools:text="40" />
+    </RelativeLayout>
+</RelativeLayout>

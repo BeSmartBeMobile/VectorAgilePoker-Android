@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vector Agile Poker</string>
+
+    <string name="textTransitionName">textTransition</string>
+    <string name="imageTransitionName">imageTransition</string>
+    <string name="backgroundImageTransition">backgroundImageTransition</string>
+</resources>
